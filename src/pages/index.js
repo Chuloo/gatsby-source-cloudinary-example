@@ -1,20 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import ImageGallery from "../components/ImageGallery"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <h1>Image Gallery</h1>
+    <p>Here's a Gatsby site with optimized images in a masonry grid, served from <a href="https:cloudinary.com" target="_blank" rel="noopener noreferrer">Cloudinary</a></p>
+    <div style={{ marginBottom: `1.45rem` }}>
+      <ImageGallery/>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
