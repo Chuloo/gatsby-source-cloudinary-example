@@ -5177,10 +5177,10 @@ gatsby-react-router-scroll@^2.1.17:
     scroll-behavior "^0.9.10"
     warning "^3.0.0"
 
-gatsby-source-cloudinary@^0.1.10:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/gatsby-source-cloudinary/-/gatsby-source-cloudinary-0.1.10.tgz#f27cc0b9567115cc3319e6dbdef85f1cc213493f"
-  integrity sha512-AgdQveAJnRhtPnV0L8ngAVEIl8WxGEn/DYRFzE75G51KfiOwH3gNu3JGsJm/HjSpZ2MNTi1yXJTCrIh628uz8w==
+gatsby-source-cloudinary@^0.1.11:
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/gatsby-source-cloudinary/-/gatsby-source-cloudinary-0.1.11.tgz#cac34ca31625a6ef2a141c602d274f662291fac1"
+  integrity sha512-TWy8+CmdmfC3qxqUzWXVGknWD49dn8lLxtzPua0ug/HDDpGcgk86/2ly/pDbCPVBOKptjHIalnGOw6PkQPdWqA==
   dependencies:
     cloudinary "^1.11.0"
     lodash.snakecase "^4.1.1"

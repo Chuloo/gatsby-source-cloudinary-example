@@ -8,7 +8,7 @@ const ImageGallery = () => {
             allCloudinaryMedia {
               edges {
                 node {
-                  url
+                  secure_url
                 }
               }
             }
@@ -22,7 +22,7 @@ const ImageGallery = () => {
           <div className="image-grid">
             {clImages.map((image, index) => (
                   <div className="image-item" key={`${index}-cl`}>
-                    <img src={image.node.url} alt={"no alt :("} />
+                    <img src={image.node.secure_url} alt={"no alt :("} />
                   </div>
                 ))
             }
